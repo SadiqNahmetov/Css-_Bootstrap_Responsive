@@ -1,0 +1,1103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#img-slider .row {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+#nav-area .my-container {
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    position: relative;
+}
+
+#nav-area .my-container .logo {
+    margin-top: 14px;
+}
+
+#nav-area .my-container .my-navbar {
+    margin-top: 13px;
+    background-color: white !important;
+}
+
+#nav-area .my-container .my-navbar ul li a {
+    margin-left: 16px;
+    font-size: 22px;
+}
+
+#nav-area .my-container .sizes i {
+    font-size: 10px;
+}
+
+#nav-area .my-container .my-navbar ul li a:hover {
+    color: #33CAD5;
+}
+
+#nav-area .my-container .icons {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    display: flex;
+}
+
+#nav-area .my-container .icons a {
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+
+}
+
+#nav-area .my-container .icons .heart {
+    position: relative;
+    top: 15px;
+}
+
+#nav-area .my-container .icons .basket {
+    position: relative;
+    top: 15px;
+}
+
+#nav-area .my-container .icons .heart .heart-total {
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 22px;
+    right: 28px;
+}
+
+#nav-area .my-container .icons .heart .heart-total span {
+    color: white;
+    position: absolute;
+    left: 4px;
+    top: -5px;
+}
+
+#nav-area .my-container .icons .basket .basket-total {
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 22px;
+    right: 28px;
+}
+
+#nav-area .my-container .icons .basket .basket-total span {
+    color: white;
+    position: absolute;
+    left: 4px;
+    top: -5px;
+}
+
+/* Main */
+.my-slider {
+    padding: 0 !important;
+}
+
+#img-slider .my-container .images img {
+    width: 100%;
+    height: 600px;
+}
+
+#img-slider .my-container .images {
+    position: relative;
+}
+
+#img-slider .my-container .images .text {
+    font-weight: 770;
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    left: 42px;
+}
+
+#img-slider .my-container .images .text h1 {
+    font-size: 68px;
+    position: relative;
+    left: 70px;
+}
+
+#img-slider .my-container .images .text h1 span {
+    font-size: 70px;
+    font-weight: 780;
+    color: #33cad5;
+}
+
+#img-slider .my-container .images .text p {
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 70px;
+}
+
+#img-slider .my-container .images .text a {
+    font-size: 18px;
+    position: relative;
+    top: 45px;
+    left: 70px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#img-slider .my-container .images .text a {
+    background-color: #33cad5;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    display: inline-block;
+
+}
+
+#img-slider .my-container .images .text a:hover {
+    background-color: black;
+}
+
+#info .my-container {
+    width: 90%;
+    height: 85px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+
+#info .my-container i {
+    position: absolute;
+    top: 38px;
+    left: 12px;
+    font-size: 32px;
+
+}
+
+#info .my-container h4 {
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    left: 65px;
+}
+
+#info .my-container p {
+    font-size: 18px;
+    position: absolute;
+    top: 55px;
+    left: 65px;
+}
+
+#shopping {
+    width: 100%;
+    height: 835px;
+    background-color: #FAFAFA;
+}
+
+#shopping .my-container {
+    width: 90%;
+    height: 85px;
+    margin: auto;
+    position: relative;
+    padding-top: 22px;
+}
+
+#shopping .my-container .text-arrivals h3 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+#shopping .my-container .shopping-images-first {
+    position: absolute;
+    top: 165px;
+    left: 0;
+}
+
+#shopping .my-container .shopping-images-first img {
+    width: 328px;
+    transition: 1s;
+    
+}
+#shopping .my-container .shopping-images-first img:hover{
+    transform: scale(1.1);
+   z-index: 2;
+
+}
+
+
+
+#shopping .my-container .shopping-images-second {
+    position: absolute;
+    top: 165px;
+    left: 7px;
+}
+
+#shopping .my-container .shopping-images-second img {
+    width: 328px;
+}
+
+#shopping .my-container .shopping-images-second-third {
+    position: absolute;
+    top: 165px;
+    left: 15px;
+}
+
+#shopping .my-container .shopping-images-second-third img {
+    width: 328px;
+}
+
+#shopping .my-container .shopping-images-second-fourth {
+    position: absolute;
+    top: 165px;
+    left: 22px;
+}
+
+#shopping .my-container .shopping-images-second-fourth img {
+    width: 328px;
+}
+
+#shopping .my-container .shopping-images-first .foxic {
+    background-color: white;
+    width: 328px;
+    height: 200px;
+    position: relative;
+
+    transition: 1s;
+    
+
+
+}
+
+#shopping .my-container .shopping-images-first .foxic:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    
+}
+
+#shopping .my-container .shopping-images-second .seiko {
+    background-color: white;
+    width: 328px;
+    height: 200px;
+    position: relative;
+}
+
+#shopping .my-container .shopping-images-second-third .banita {
+    background-color: white;
+    width: 328px;
+    height: 200px;
+    position: relative;
+}
+
+#shopping .my-container .shopping-images-second-fourth .bigsteps {
+    background-color: white;
+    width: 328px;
+    height: 200px;
+    position: relative;
+}
+
+#shopping .my-container .shopping-images-first .foxic span {
+    position: absolute;
+    top: 66px;
+    left: 150px;
+    opacity: 0.5;
+}
+
+#shopping .my-container .shopping-images-second .seiko span {
+    position: absolute;
+    top: 66px;
+    left: 150px;
+    opacity: 0.5;
+}
+
+#shopping .my-container .shopping-images-second-third .banita span {
+    position: absolute;
+    top: 66px;
+    left: 136px;
+    opacity: 0.5;
+}
+
+#shopping .my-container .shopping-images-second-fourth .bigsteps span {
+    position: absolute;
+    top: 66px;
+    left: 125px;
+    opacity: 0.5;
+}
+
+#shopping .my-container .shopping-images-first .foxic h6 {
+    position: absolute;
+    top: 95px;
+    left: 70px;
+
+}
+
+#shopping .my-container .shopping-images-second .seiko h6 {
+    position: absolute;
+    top: 95px;
+    left: 48px;
+}
+
+#shopping .my-container .shopping-images-second-third .banita h6 {
+    position: absolute;
+    top: 95px;
+    left: 36px;
+}
+
+#shopping .my-container .shopping-images-second-fourth .bigsteps h6 {
+    position: absolute;
+    top: 95px;
+    left: 65px;
+}
+
+#shopping .my-container .shopping-images-first .foxic p {
+    position: absolute;
+    top: 120px;
+    left: 148px;
+}
+
+#shopping .my-container .shopping-images-second .seiko p {
+    position: absolute;
+    top: 120px;
+    left: 148px;
+}
+
+#shopping .my-container .shopping-images-second-third .banita p s {
+    position: absolute;
+    top: 1px;
+    left: -50px;
+}
+
+#shopping .my-container .shopping-images-second-third .banita p {
+    position: absolute;
+    top: 120px;
+    left: 148px;
+}
+
+#shopping .my-container .shopping-images-second-fourth .bigsteps p {
+    position: absolute;
+    top: 120px;
+    left: 148px;
+}
+
+#shopping .my-container .shopping-images-first .foxic .star {
+    position: absolute;
+    top: 150px;
+    left: 121px;
+    color: gold;
+}
+
+#shopping .my-container .shopping-images-second .seiko .star {
+    position: absolute;
+    top: 150px;
+    left: 121px;
+    color: gold;
+}
+
+#shopping .my-container .shopping-images-second-third .banita .star {
+    position: absolute;
+    top: 150px;
+    left: 121px;
+    color: gold;
+}
+
+#shopping .my-container .shopping-images-second-fourth .bigsteps .star {
+    position: absolute;
+    top: 150px;
+    left: 121px;
+    color: gold;
+}
+
+#banner-products .my-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#banner-products {
+    width: 100%;
+    height: 660px;
+    background-color: #FAFAFA;
+}
+
+#banner-products .my-container .products-img-first {
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+#banner-products .my-container .products-img-second {
+    position: absolute;
+    top: 0px;
+    left: -15px;
+}
+
+#banner-products .my-container .products-img-third {
+    position: absolute;
+    top: 288px;
+    left: -15px;
+}
+
+#banner-products .my-container .product-img-fourth {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+#banner-products .my-container .product-img-fifth {
+    position: absolute;
+    top: 288px;
+    left: 0;
+}
+
+#banner-products .my-container .products-img-first h5 {
+    position: absolute;
+    top: 275px;
+    left: 240px;
+    color: #ffffff;
+}
+
+#banner-products .my-container .products-img-first p {
+    position: absolute;
+    top: 292px;
+    left: 240px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#banner-products .my-container .products-img-first span {
+    position: absolute;
+    top: 334px;
+    left: 240px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#banner-products .my-container .products-img-first a {
+    right: 70px;
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+#banner-products .my-container .products-img-first a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+#banner-products .my-container .products-img-second h2 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+#banner-products .my-container .products-img-second h3 {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#banner-products .my-container .products-img-second a {
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    left: 58px;
+}
+
+#banner-products .my-container .products-img-second a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+
+#banner-products .my-container .products-img-third h2 {
+    position: absolute;
+    top: 55px;
+    right: 55px;
+}
+
+#banner-products .my-container .products-img-third h3 {
+    position: absolute;
+    top: 95px;
+    right: 75px;
+    font-size: 30px;
+}
+
+#banner-products .my-container .products-img-third a {
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    right: 96px;
+}
+
+#banner-products .my-container .products-img-third a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+#banner-products .my-container .product-img-fourth h2 {
+    position: absolute;
+    top: 55px;
+    left: 35px;
+    font-size: 22px;
+    color: white;
+}
+
+#banner-products .my-container .product-img-fourth h3 {
+    position: absolute;
+    top: 85px;
+    left: 35px;
+    font-size: 35px;
+    color: white;
+
+}
+
+#banner-products .my-container .product-img-fourth h6 {
+    position: absolute;
+    top: 122px;
+    left: 35px;
+    font-size: 35px;
+    color: white;
+}
+
+#banner-products .my-container .product-img-fourth a {
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    bottom: 35px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    left: 35px;
+}
+
+#banner-products .my-container .product-img-fourth a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+#banner-products .my-container .product-img-fifth h2 {
+    position: absolute;
+    top: 44px;
+    right: 25px;
+    font-size: 22px;
+    color: white;
+}
+
+#banner-products .my-container .product-img-fifth h3 {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    font-size: 35px;
+    color: white;
+}
+
+#banner-products .my-container .product-img-fifth h6 {
+    position: absolute;
+    top: 105px;
+    right: 133px;
+    font-size: 35px;
+    color: white;
+}
+
+#banner-products .my-container .product-img-fifth a {
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    bottom: 54px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    right: 85px;
+}
+
+#banner-products .my-container .product-img-fifth a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+#covid-info {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+#covid-info .my-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#covid-info .my-container .covid-text h2 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#covid-info .my-container .covid-info-text p {
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+
+#covid-info .my-container .covid-info-text span {
+    position: absolute;
+    top: 230px;
+    left: 0;
+}
+
+#covid-info .my-container img {
+    position: absolute;
+    top: 50px;
+}
+
+#important {
+    width: 100%;
+    height: 490px;
+
+}
+
+#important .my-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#important .my-container .important-text {
+    position: absolute;
+    top: 50px;
+}
+
+#important .my-container .cards {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 135px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px 8px #a2a1a1;
+}
+
+#important .my-container .cards img {
+    position: absolute;
+    top: 66px;
+    left: 91px;
+}
+
+#blog-posts {
+    width: 100%;
+    height: 550px;
+    background-color: #FAFAFA;
+}
+
+#blog-posts .my-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#blog-posts .my-container .bolog-text {
+    position: absolute;
+    top: 75px;
+}
+
+#blog-posts .my-container .cards-blog-img {
+    width: 430px;
+    height: 220px;
+    position: absolute;
+    top: 155px;
+}
+
+#blog-posts .my-container .cards-blog-img img {
+    width: 430px;
+    height: 220px;
+    position: absolute;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+#blog-posts .my-container .cards-blog-img a {
+    color: black;
+}
+
+#blog-posts .my-container .cards-blog-img a:hover {
+    color: #33cad5;
+}
+
+#blog-posts .my-container .cards-blog-img img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+#blog-posts .my-container .cards-blog-img .my-font1 {
+    position: absolute;
+    top: 235px;
+    font-size: 16px;
+    left: 70px;
+}
+
+#blog-posts .my-container .cards-blog-img .my-font2 {
+    position: absolute;
+    top: 235px;
+    font-size: 16px;
+    left: 58px;
+
+}
+
+#blog-posts .my-container .cards-blog-img .my-font3 {
+    position: absolute;
+    top: 235px;
+    font-size: 16px;
+    left: 115px;
+}
+
+#blog-posts .my-container .cards-blog-img .edit {
+    position: absolute;
+    top: 256px;
+    font-size: 16px;
+    left: 200px;
+    opacity: 0.7;
+}
+
+#blog-posts .my-container .cards-blog-img span {
+    position: absolute;
+    top: 255px;
+    font-size: 16px;
+    left: 145px;
+}
+
+#blog-posts .my-container .cards-blog-img span i {
+    position: absolute;
+    top: 5px;
+    font-size: 16px;
+    left: -25px;
+    opacity: 0.7;
+
+}
+
+#purchase {
+    width: 100%;
+    height: 135px;
+    background-color: #33CAD5;
+}
+
+#purchase .my-container {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+#purchase .my-container .purchase-text i {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-size: 55px;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+#purchase .my-container .purchase-text i:hover {
+    transform: scale(1.4);
+}
+
+#purchase .my-container .purchase-text h5 {
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    color: #F9FDFE;
+}
+
+#purchase .my-container .purchase-text p {
+    position: absolute;
+    top: 65px;
+    left: 115px;
+    color: #F9FDFE;
+}
+
+#purchase .my-container .purchase-text a {
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    top: 38px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    right: 0;
+}
+
+#purchase .my-container .purchase-text a:hover {
+    background-color: black;
+    color: #F9FDFE;
+}
+
+/* footer */
+
+#about-contact {
+    width: 100%;
+    height: 350px;
+    background-color: #FFFFFF;
+}
+
+#about-contact .my-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+#about-contact .about-us {
+    margin-top: 50px;
+}
+
+#about-contact .about-us h5,
+.text-about {
+    color: black;
+}
+
+#about-contact .contact-info h5,
+.contacts-foter {
+    color: black;
+}
+
+#about-contact .contact-info .contacts-foter {
+    font-size: 15px;
+}
+
+#about-contact .contact-info a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+#about-contact .contact-info a:hover {
+    color: #33CAD5;
+    transition: 0.3s;
+}
+
+#about-contact .links a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+#about-contact .links a:hover {
+    color: #33CAD5;
+    transition: 0.3s;
+}
+
+#about-contact .links h5 {
+    color: black;
+}
+
+#about-contact .socials h5 {
+    color: black;
+}
+
+#about-contact .socials .socials-first,
+.socials-second .icons {
+    display: flex;
+}
+
+#about-contact .socials .socials-second {
+    display: flex;
+    padding-top: 10px;
+}
+
+#about-contact .socials .socials-first i {
+    padding: 20px;
+    font-size: 20px;
+    color: #46a6e3;
+    padding-top: 15px;
+    padding-left: 16px;
+    transition: 0.3s;
+}
+
+#about-contact .socials .socials-first i:hover {
+    color: white;
+}
+
+#about-contact .socials .socials-second i {
+    padding: 20px;
+    font-size: 20px;
+    color: #46a6e3;
+    padding-top: 15px;
+    padding-left: 16px;
+    transition: 0.3s;
+}
+
+#about-contact .socials .socials-second i:hover {
+    color: white;
+}
+
+#about-contact .socials .social-icons {
+    width: 50px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    margin: 5px;
+    transition: 0.3s;
+
+}
+
+#about-contact .socials .social-icons:hover {
+    background-color: #33CAD5;
+    transition: 0.3s;
+}
+
+#about-contact .socials .socials-img {
+    width: 50px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    transition: 0.3s;
+
+}
+
+#about-contact .socials .socials-img:hover {
+    background-color: #33CAD5;
+}
+
+#about-contact .socials .icons {
+    padding-left: 10px;
+    position: absolute;
+    left: 65px;
+}
+
+#about-contact .news-letter h5 {
+    color: black;
+}
+
+#about-contact .news-letter input {
+    border: none;
+    background-color: #f7f7f8;
+    width: 225px;
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 22px;
+    outline: none;
+}
+
+#about-contact .news-letter a {
+    background-color: #33CAD5;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#about-contact .news-letter a:hover {
+    background-color: black;
+    color: white;
+}
+
+#about-contact.about-us,
+.contact-info,
+.links,
+.socials,
+.news-letter {
+    padding-top: 50px;
+}
+#footer-logo {
+    width: 100%;
+    height: 120px;
+    background-color: #FFFFFF;
+}
+
+
+#footer-logo .my-container {
+    width: 90%;
+    height: 85px;
+    margin: auto;
+    position: relative;
+}
+
+#footer-logo .my-container .logos {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+#footer-logo .my-container .footer-icon {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+
+#footer-logo .my-container .footer-icon .icon-logos i {
+    width: 70px;
+    color: black;
+}
+
+#footer-logo .my-container .footer-icon .icon-logos i:hover {
+    color: #33CAD5;
+}
+
+#footer-logo .my-container .foxshop {
+    position: absolute;
+    top: 48px;
+    right: 90px;
+
+}
+
+#footer-logo .my-container .foxshop span a {
+    right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#footer-logo .my-container .foxshop a:hover {
+    color: #33CAD5;
+}
+
